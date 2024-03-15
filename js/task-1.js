@@ -1,7 +1,7 @@
 function makeTransaction(quantity, pricePerDroid, customerCredits)
 const sum = quantity * pricePerDroid;
-if (sum>customerCredits)  {"Insufficient funds!"}
-else {`You ordered ${quantity} droids worth ${sum} credits!`} 
+if (sum>customerCredits)  {return "Insufficient funds!"}
+else {return `You ordered ${quantity} droids worth ${sum} credits!`} 
 
 
 
